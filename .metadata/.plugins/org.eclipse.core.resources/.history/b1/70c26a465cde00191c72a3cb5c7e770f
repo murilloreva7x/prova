@@ -1,0 +1,9 @@
+
+public class Alunos {
+      private String nome;
+      private String curso;
+      private int serie;
+      private String disciplina;
+      private double nota;
+           
+}

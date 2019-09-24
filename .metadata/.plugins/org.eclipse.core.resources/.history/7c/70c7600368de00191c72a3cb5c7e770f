@@ -1,0 +1,23 @@
+
+public class Notas {
+    private double valor;
+    private Disciplinas nomeDisciplinas;
+    
+    ArrayList<Cidade> pontosDePassagem = new ArrayList<>();
+
+    public void  notas (double valor , Disciplinas nomeDisciplinas){
+        this.valor= valor;    
+        this.nomeDisciplinas= nomeDisciplinas;
+    }
+
+    public double getNota(){
+        return this.valor;
+    }
+
+    public Disciplinas getDisciplinas(){
+        return this.nomeDisciplinas;
+    }
+    public void setNota(double valor){
+        this.valor = valor;
+    }
+}

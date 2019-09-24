@@ -1,0 +1,24 @@
+package Prova;
+
+import java.util.ArrayList;
+
+public class Alunos {
+    private String nome;
+    private ArrayList<Notas> notas = new ArrayList();
+
+    public Alunos(String nome, String curso, int serie){
+        this.nome = nome;
+    }
+
+    public String getNome (){
+        return this.nome;
+    }
+
+    public ArrayList getNotas(){
+        return this.notas;
+    }
+
+    public Notas registrarNota(double valor, Disciplinas nomeDisciplinas){
+
+    }
+}

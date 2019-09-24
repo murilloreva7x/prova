@@ -1,0 +1,10 @@
+
+public class Notas {
+
+	public double nota1;
+	public double nota2;
+	public double nota3;
+	public double nota4;
+	public double nota5;
+	
+}

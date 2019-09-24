@@ -1,0 +1,40 @@
+
+
+import java.util.ArrayList;
+
+public class Alunos {
+    private String nome;
+    private String curso;
+    private int serie;
+    private String disciplina;
+    private ArrayList<Notas> notas = new ArrayList();
+
+    public Alunos(String nome, String curso, int serie, String disciplina){
+        this.nome = nome;
+        this.curso = curso;
+        this.serie = serie;
+        this.disciplina = disciplina;
+    }
+
+    public String getNome (){
+        return this.nome;
+    }
+
+    public String getCurso(){
+        return this.curso;
+    }
+    public int getSerie(){
+        return this.serie;
+    }
+    public String getDisciplina(){
+        return this.disciplina;
+    }
+
+    public ArrayList getNotas(){
+        return this.notas;
+    }
+
+    public Nota registrarNota(double valor, Disciplina nomeDisciplina){
+
+    }
+}

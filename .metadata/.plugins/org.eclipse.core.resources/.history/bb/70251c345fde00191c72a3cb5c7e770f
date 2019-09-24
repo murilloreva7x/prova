@@ -1,0 +1,6 @@
+
+public class Cursos {
+	
+	private String curso;
+	
+}

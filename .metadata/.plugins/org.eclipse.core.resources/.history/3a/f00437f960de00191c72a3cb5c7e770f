@@ -1,0 +1,20 @@
+
+
+public class Notas {
+    private double valor;
+    private Disciplinas nomeDisciplinas;
+
+    public void  notas (double valor , Disciplinas nomeDisciplinas){
+        this.valor= valor;    
+        this.nomeDisciplinas= nomeDisciplinas;
+    }
+
+    public double getNota(){
+        return this.valor;
+    }
+
+    public Disciplinas getDisciplina(){
+        return this.nomeDisciplinas;
+    }
+
+}

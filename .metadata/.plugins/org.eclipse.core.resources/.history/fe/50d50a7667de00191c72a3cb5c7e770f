@@ -1,0 +1,4 @@
+
+public class Media {
+	ArrayList<Aluno> nota = new ArrayList<>();
+}
